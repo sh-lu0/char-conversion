@@ -4,6 +4,7 @@
 // 「半角カタカナ」を「全角カタカナ」に変換：K
 // 「半角」数字を「全角」に変換：N
 
+<?php
 class CheckConvertStr
 {
     public function index()
@@ -31,3 +32,4 @@ class CheckConvertStr
 
 $var_class = new CheckConvertStr();
 $var_class->index();
+
